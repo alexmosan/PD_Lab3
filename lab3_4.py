@@ -21,3 +21,9 @@ next_instance_generator = get_next_instance(class_label, dataset_path)
 
 for next_instance in next_instance_generator:
     print(f"Следующий экземпляр класса {class_label}: {next_instance}")
+
+class_label = 'bad'
+next_instance_generator = get_next_instance(class_label, dataset_path)
+
+for next_instance in next_instance_generator:
+    print(f"Следующий экземпляр класса {class_label}: {next_instance}")
